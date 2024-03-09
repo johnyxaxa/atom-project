@@ -23,6 +23,9 @@
     justify-content: flex-end;
 }
 
+.signup {
+    margin-left: auto;
+}
 .login {
     margin-left: 20px;
 }
@@ -75,3 +78,22 @@
   .last-item {
     order: -1;
   }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-one, .footer-three {
+    background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+  }
+  
